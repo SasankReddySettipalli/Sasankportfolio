@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+}
+section>.nav{
+    height: 12%;
+    width: 100%;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>.nav>.img{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section>.nav>.img>img{
+    height: 80%;
+    width: 58%;
+    border-radius: 50%;
+}
+section>.nav>.name{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+section>.nav>.menu{
+    height: 100%;
+    width: 52%;
+    
+}
+section>.nav>.menu>ol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+section>.nav>.menu>ol>li{
+    list-style-type: none;
+}
+section>.nav>.menu>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20PX;
+    font-weight: bold;
+}
+section>.nav>.menu>ol>li:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+section>article{
+    height: 88%;
+    width: 100%;
+    display: flex;
+}
+section>article>.pic{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>article>.pic>img{
+    height: 50%;
+    width: 40%;
+    border-radius: 50%;
+}
+section>article>.sum{
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    display: grid;
+    align-content: center;
+    grid-template-rows: 50px 50px;
+    justify-content: center;
+}
+section>article>.sum>h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+section>article>.sum>p{
+    color: black;
+    font-size: 20px;
+}
+section>article>.sum>p>u{
+    color: rgb(62, 32, 213);
+}
+section>article>.sum>button{
+    height: 30px;
+    width: 70px;
+    margin: 30px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+section>section{
+    height: 110vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+section>.bio{
+    height: 100%;
+    width: 70%;
+  
+}
+section>.bio>h1{
+    font-size: 35px;
+}
+section>.bio>h2{
+    font-size: 27px;
+    margin-top: 20px;
+}
+section>.bio>p{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section>footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    display: flex;
+}
+footer>.git{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer>.git>a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    font-size: 25px;
+
+
+}
+footer>.git>a>svg{
+    height: 50%;
+    width: 40%;
+    fill: black;
+
+}
+footer>.linkedin{
+    height: 100%;
+    width: 25%;
+
+    
+}
+footer>.linkedin>a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    font-size: 25px;
+
+
+}
+footer>.linkedin>a>svg{
+    height: 50%;
+    width: 50%;
+    fill: black;
+}
+footer>.whatsapp{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer>.whatsapp>a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    font-size: 25px;
+
+
+
+}
+footer>.whatsapp>a>svg{
+    height: 50%;
+    width: 50%;
+    fill: black;
+}
+footer>.insta{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+footer>.insta>a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-size: 25px;
+
+
+
+}
+footer>.insta>a>svg{
+    height: 50%;
+    width: 50%;
+    fill: black;
+
+}
